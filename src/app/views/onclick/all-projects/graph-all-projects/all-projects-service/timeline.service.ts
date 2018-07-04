@@ -399,7 +399,11 @@ showTooltip(row, project, task) {
         .style('padding', '4px');
 
     let cx: number = (task.length / 2 + task.start) * this._weekTick + this._goffset;
+if (row === 0){
+  this._tooltip.style('left', + cx + 'px').style('top', 20 + 'px');
 
+} else{
     this._tooltip.style('left', + cx + 'px').style('top', (row * 50 - 20) + 'px');
+}
 }
 }
