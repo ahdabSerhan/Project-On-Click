@@ -1,0 +1,226 @@
+.eventcontrol {
+  /*background: #eee; */
+  color: #444;
+  background: #e3e3e3;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.eventcontrol .ec-items {
+  background: #fafafa;
+  /*border-radius: 3px;*/
+}
+
+.eventcontrol .ec-markers {
+  border-top: 1px solid #fff;
+}
+
+.eventcontrol .ec-dot {
+  position: absolute;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.eventcontrol .ec-markers .ec-ticks {}
+
+.eventcontrol .ec-markers .ec-ticks .ec-tick {
+  position: absolute;
+  width: 0px;
+  border-left: 1px solid #ececec;
+}
+
+.eventcontrol .ec-markers .ec-labels {
+  height: 35;
+}
+
+.eventcontrol .ec-label {
+  position: absolute;
+  padding: 0;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  color: #777;
+}
+
+.eventcontrol .ec-region-label {
+  position: absolute;
+  padding: 0;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
+  white-space: nowrap;
+  color: #999;
+}
+
+.eventcontrol .ec-draggable {
+  cursor: hand;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.eventcontrol .ec-dragging {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.eventcontrol-target {
+  width: 100%;
+  height: 64px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  background: #eee;
+  margin-top: 10px;
+  padding: 4px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.eventcontrol-target h2 {
+  margin: 0;
+  font-size: 48px;
+}
+
+////////////////////////////////////////////////////////
+.gtask0 {
+  background-image: linear-gradient(0deg, transparent 50%, White 50%), linear-gradient(0deg, White 50%, transparent 50%);
+  color: lightgreen;
+}
+
+.gtask10 {
+  background-image: linear-gradient(126deg, transparent 50%, White 50%), linear-gradient(90deg, White 50%, transparent 50%);
+  color: lightgreen;
+}
+
+.gtask15 {
+  background-image: linear-gradient(180deg, transparent 50%, white 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgreen;
+}
+
+.gtask20 {
+  background-image: linear-gradient(216deg, transparent 50%, white 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgreen;
+}
+
+.gtask30 {
+  background-image: linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgreen;
+}
+
+.gtask40 {
+  background-image: linear-gradient(126deg, transparent 50%, green 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgreen;
+}
+
+.gtask45 {
+  background-image: linear-gradient(180deg, transparent 50%, green 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgreen;
+}
+
+.gtask50 {
+  background-image: linear-gradient(216deg, transparent 50%, green 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgreen;
+}
+
+.gtaskonehundred {
+  background-image: none;
+  color: lightgreen;
+}
+
+.otask0 {
+  background-image: linear-gradient(0deg, transparent 50%, White 50%), linear-gradient(0deg, White 50%, transparent 50%);
+  color: darkorange;
+}
+
+.otask10 {
+  background-image: linear-gradient(126deg, transparent 50%, White 50%), linear-gradient(90deg, White 50%, transparent 50%);
+  color: darkorange;
+}
+
+.otask15 {
+  background-image: linear-gradient(180deg, transparent 50%, white 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: darkorange;
+}
+
+.otask20 {
+  background-image: linear-gradient(216deg, transparent 50%, white 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: darkorange;
+}
+
+.otask30 {
+  background-image: linear-gradient(90deg, white 50%, transparent 50%);
+  color: darkorange;
+}
+
+.otask40 {
+  background-image: linear-gradient(126deg, transparent 50%, orange 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: darkorange;
+}
+
+.otask45 {
+  background-image: linear-gradient(180deg, transparent 50%, orange 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: darkorange;
+}
+
+.otask50 {
+  background-image: linear-gradient(216deg, transparent 50%, orange 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: darkorange;
+}
+
+.otaskonehundred {
+  background-image: none;
+  color: darkorange;
+}
+
+.rtask0 {
+  background-image: linear-gradient(0deg, transparent 50%, White 50%), linear-gradient(0deg, White 50%, transparent 50%);
+  color: red;
+}
+
+.rtask10 {
+  background-image: linear-gradient(126deg, transparent 50%, White 50%), linear-gradient(90deg, White 50%, transparent 50%);
+  color: red;
+}
+
+.rtask15 {
+  background-image: linear-gradient(180deg, transparent 50%, white 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: red;
+}
+
+.rtask20 {
+  background-image: linear-gradient(216deg, transparent 50%, white 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: red;
+}
+
+.rtask30 {
+  background-image: linear-gradient(90deg, white 50%, transparent 50%);
+  color: red;
+}
+
+.rtask40 {
+  background-image: linear-gradient(126deg, transparent 50%, red 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgray;
+}
+
+.rtask45 {
+  background-image: linear-gradient(180deg, transparent 50%, red 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgray;
+}
+
+.rtask50 {
+  background-image: linear-gradient(216deg, transparent 50%, red 50%), linear-gradient(90deg, white 50%, transparent 50%);
+  color: lightgray;
+}
+
+.rtaskonehundred {
+  background-image: none;
+  color: lightgray;
+}
